@@ -1,0 +1,25 @@
+/*html*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<link rel="stylesheet" href="first.css">
+<div class="loader-container">
+  <div class="loader"></div>
+  <p>Loading...</p>
+</div>
+
+<script>
+  // Redirect to the next page after 3 seconds
+  setTimeout(function() {
+    window.location.href = 'web.html'; // Replace 'other-page.html' with your actual target page URL
+  }, 3000); // 3 seconds
+</script>
+ 
+</body>
+</html>
